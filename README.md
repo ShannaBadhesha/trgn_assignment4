@@ -2,7 +2,7 @@
 
 ## Usage
 
-To determie if there a correlation between number of hospital beds and COVID mortality. 
+To determine if there a correlation between number of hospital beds and COVID mortality. 
 
 ## Description
 
