@@ -28,7 +28,7 @@ covid=pd.DataFrame(req)
 ```
 covid.info()
 ```
-
+```
 <class 'pandas.core.frame.DataFrame'>
 RangeIndex: 24480 entries, 0 to 24479
 Data columns (total 13 columns):
@@ -49,3 +49,4 @@ Data columns (total 13 columns):
  12  Date         24480 non-null  object
 dtypes: int64(4), object(9)
 memory usage: 2.4+ MB
+```
