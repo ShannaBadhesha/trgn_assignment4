@@ -1,3 +1,24 @@
+# TRGN_assignment4
+
+## Description
+
+In this exercise we explore whether there is obvious evidence for a correlation between number of hospital beds and COVID mortality. Intuitively, one might think that more hospital beds improve mortality within a region. Here, we want to complete a very quick cursory view of this premise.
+
+For this exercise we will start by using the following API. The API Docs are here: https://covid-19-apis.postman.com/).  Here is an example unit test where you can see a JSON result. https://api.covid19api.com/
+
+How do we determine countries? Well we read the API manual and see: https://api.covid19api.com/countries
+
+Documentation: https://documenter.getpostman.com/view/8854915/SzS8rjHv?version=latest 
+
+Loading from API
+Call API: https://www.communitybenefitinsight.org/api/get_hospitals.php
+
+API Documents: https://www.communitybenefitinsight.org/?page=info.data_api
+
+## Answer
+
+The following python code will allow us to explore whether there is obvious evidence for a correlation between number of hospital beds and COVID mortality.
+
 ```python
 import requests 
 import pandas as pd
