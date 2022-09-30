@@ -16,7 +16,7 @@ API Documents: https://www.communitybenefitinsight.org/?page=info.data_api
 
 ## Answer
 
-```
+```python
 import requests 
 import pandas as pd
 import json
@@ -25,10 +25,10 @@ req=requests.get("https://api.covid19api.com/live/country/united-states").json()
 covid=pd.DataFrame(req)
 ```
 
-```
+```python
 covid.info()
 ```
-```
+```python
 <class 'pandas.core.frame.DataFrame'>
 RangeIndex: 24480 entries, 0 to 24479
 Data columns (total 13 columns):
