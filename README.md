@@ -50,3 +50,17 @@ Data columns (total 13 columns):
 dtypes: int64(4), object(9)
 memory usage: 2.4+ MB
 ```
+
+```python
+covid.describe()
+```
+
+Lets look at this graphically. Lets use a new graphing library called Seaborn.
+
+```python
+import seaborn as sns
+import matplotlib.pyplot as plt
+sns.set_theme(style="ticks")
+sns.relplot(data=covid,x="Lat", y="Lon", hue="Deaths", size="Confirmed",
+            sizes=(40,400))
+```
